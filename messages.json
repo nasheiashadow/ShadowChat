@@ -1,0 +1,90 @@
+{
+    "SHADOW": {
+        "inbox": [
+            {
+                "id": 1,
+                "sender": "WENDY",
+                "receiver": "SHADOW",
+                "text": "MUDIWA",
+                "date": "20-07-2026",
+                "time": "14:50:56"
+            },
+            {
+                "id": 1,
+                "sender": "testuser",
+                "receiver": "SHADOW",
+                "text": "hi bro",
+                "date": "23-07-2026",
+                "time": "13:36:52"
+            },
+            {
+                "id": 2,
+                "sender": "testuser",
+                "receiver": "SHADOW",
+                "text": "how is it",
+                "date": "23-07-2026",
+                "time": "13:41:14"
+            }
+        ],
+        "sent": []
+    },
+    "WENDY": {
+        "inbox": [
+            {
+                "id": 3,
+                "sender": "testuser",
+                "receiver": "WENDY",
+                "text": "hi wwendy",
+                "date": "23-07-2026",
+                "time": "13:42:07"
+            }
+        ],
+        "sent": [
+            {
+                "id": 1,
+                "sender": "WENDY",
+                "receiver": "SHADOW",
+                "text": "MUDIWA",
+                "date": "20-07-2026",
+                "time": "14:50:56"
+            }
+        ]
+    },
+    "CHRIS": {
+        "inbox": [],
+        "sent": []
+    },
+    "Maria": {
+        "inbox": [],
+        "sent": []
+    },
+    "testuser": {
+        "inbox": [],
+        "sent": [
+            {
+                "id": 1,
+                "sender": "testuser",
+                "receiver": "SHADOW",
+                "text": "hi bro",
+                "date": "23-07-2026",
+                "time": "13:36:52"
+            },
+            {
+                "id": 2,
+                "sender": "testuser",
+                "receiver": "SHADOW",
+                "text": "how is it",
+                "date": "23-07-2026",
+                "time": "13:41:14"
+            },
+            {
+                "id": 3,
+                "sender": "testuser",
+                "receiver": "WENDY",
+                "text": "hi wwendy",
+                "date": "23-07-2026",
+                "time": "13:42:07"
+            }
+        ]
+    }
+}

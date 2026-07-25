@@ -1,0 +1,39 @@
+{
+    "SHADOW": {
+        "password": "123",
+        "status": "WHAT A LIFE?",
+        "joined": "2026",
+        "last_seen": "25-07-2026 09:36:25",
+        "online": false,
+        "friends": []
+    },
+    "WENDY": {
+        "password": "090",
+        "status": "LIFE IS GOOD",
+        "joined": "2026",
+        "last_seen": "21-07-2026 14:23:44",
+        "online": true,
+        "friends": []
+    },
+    "CHRIS": {
+        "password": "1111",
+        "status": "Hey there! I am using ShadowChat.",
+        "online": false,
+        "last_seen": "Never",
+        "joined": "2026"
+    },
+    "Maria": {
+        "password": "0000",
+        "status": "Hey there! I am using ShadowChat.",
+        "online": false,
+        "last_seen": "Never",
+        "joined": "2026"
+    },
+    "testuser": {
+        "password": "Shadow@2000",
+        "status": "Hey there! I am using ShadowChat.",
+        "online": false,
+        "last_seen": "23-07-2026 13:42:34",
+        "joined": "2026"
+    }
+}

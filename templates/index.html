@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShadowChat</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+
+            background:linear-gradient(135deg,#0f172a,#1e293b);
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            height:100vh;
+
+            color:white;
+
+        }
+
+        .container{
+
+            width:500px;
+
+            background:white;
+
+            color:#333;
+
+            padding:50px 40px;
+
+            border-radius:15px;
+
+            text-align:center;
+
+            box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+        }
+
+        h1{
+
+            color:#2563eb;
+            margin-bottom:20px;
+            font-size:46px;
+
+        }
+
+        p{
+
+            margin-bottom:35px;
+            color:#555;
+            font-size:22px;
+            line-height:1.5;
+
+        }
+
+        .btn{
+
+            display:inline-block;
+
+            padding:15px 40px;
+
+            background:#2563eb;
+
+            color:white;
+
+            text-decoration:none;
+
+            border-radius:8px;
+
+            font-size:20px;
+
+            font-weight:bold;
+
+            transition:.3s;
+
+        }
+
+        .btn:hover{
+
+            background:#1d4ed8;
+            transform:scale(1.05);
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>💬 ShadowChat</h1>
+
+        <p>
+            Welcome to ShadowChat.<br><br>
+
+            A modern messaging platform built completely in Python and Flask.
+        </p>
+
+        <a href="/login" class="btn">Get Started</a>
+
+    </div>
+
+</body>
+
+</html>
